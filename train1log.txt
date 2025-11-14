@@ -1,0 +1,79 @@
+(base) danieluc@71b091d4f87d:/project_ghent/ElectronicComponentCNN$ python train.py --data_dir train_data --batch_size 4 --epochs 50 --gitsave 2 --lr 0.001 --save_dir checkpoint
+Epoch 1/50 - Loss: 1.1049
+Epoch 2/50 - Loss: 0.8224
+Epoch 3/50 - Loss: 0.6981
+Epoch 4/50 - Loss: 0.5137
+Epoch 5/50 - Loss: 0.2749
+Checkpoint guardado: checkpoint/model_epoch5.pth
+Epoch 6/50 - Loss: 0.2042
+Epoch 7/50 - Loss: 0.1110
+Epoch 8/50 - Loss: 0.1444
+Epoch 9/50 - Loss: 0.0547
+Epoch 10/50 - Loss: 0.0871
+Checkpoint guardado: checkpoint/model_epoch10.pth
+Epoch 11/50 - Loss: 0.0403
+Epoch 12/50 - Loss: 0.0729
+Epoch 13/50 - Loss: 0.0270
+Epoch 14/50 - Loss: 0.0364
+Epoch 15/50 - Loss: 0.0175
+Checkpoint guardado: checkpoint/model_epoch15.pth
+Epoch 16/50 - Loss: 0.1507
+Epoch 17/50 - Loss: 0.0403
+Epoch 18/50 - Loss: 0.0138
+Epoch 19/50 - Loss: 0.0399
+Epoch 20/50 - Loss: 0.0996
+Checkpoint guardado: checkpoint/model_epoch20.pth
+Epoch 21/50 - Loss: 0.0587
+Epoch 22/50 - Loss: 0.0340
+Epoch 23/50 - Loss: 0.0182
+Epoch 24/50 - Loss: 0.0491
+Epoch 25/50 - Loss: 0.0242
+Checkpoint guardado: checkpoint/model_epoch25.pth
+Epoch 26/50 - Loss: 0.0084
+Epoch 27/50 - Loss: 0.0045
+Epoch 28/50 - Loss: 0.0047
+Epoch 29/50 - Loss: 0.0032
+Epoch 30/50 - Loss: 0.0032
+Checkpoint guardado: checkpoint/model_epoch30.pth
+Epoch 31/50 - Loss: 0.0026
+Epoch 32/50 - Loss: 0.0028
+Epoch 33/50 - Loss: 0.0029
+Epoch 34/50 - Loss: 0.0023
+Epoch 35/50 - Loss: 0.0020
+Checkpoint guardado: checkpoint/model_epoch35.pth
+Epoch 36/50 - Loss: 0.0010
+Epoch 37/50 - Loss: 0.0007
+Epoch 38/50 - Loss: 0.0004
+Epoch 39/50 - Loss: 0.0002
+Epoch 40/50 - Loss: 0.0001
+Checkpoint guardado: checkpoint/model_epoch40.pth
+Epoch 41/50 - Loss: 0.0001
+Epoch 42/50 - Loss: 0.0001
+Epoch 43/50 - Loss: 0.0000
+Epoch 44/50 - Loss: 0.0000
+Epoch 45/50 - Loss: 0.0000
+Checkpoint guardado: checkpoint/model_epoch45.pth
+Epoch 46/50 - Loss: 0.0000
+Epoch 47/50 - Loss: 0.0000
+Epoch 48/50 - Loss: 0.0000
+Epoch 49/50 - Loss: 0.0000
+Epoch 50/50 - Loss: 0.0000
+Checkpoint guardado: checkpoint/model_epoch50.pth
+[main 3c39650] Commit automático después de epoch 50
+ 15 files changed, 154 insertions(+), 3 deletions(-)
+ create mode 100644 .ipynb_checkpoints/model-checkpoint.py
+ create mode 100644 .ipynb_checkpoints/train-checkpoint.py
+ create mode 100644 __pycache__/data_loader.cpython-313.pyc
+ create mode 100644 __pycache__/model.cpython-313.pyc
+ create mode 100644 checkpoint/model_epoch10.pth
+ create mode 100644 checkpoint/model_epoch15.pth
+ create mode 100644 checkpoint/model_epoch20.pth
+ create mode 100644 checkpoint/model_epoch25.pth
+ create mode 100644 checkpoint/model_epoch30.pth
+ create mode 100644 checkpoint/model_epoch35.pth
+ create mode 100644 checkpoint/model_epoch40.pth
+ create mode 100644 checkpoint/model_epoch45.pth
+ create mode 100644 checkpoint/model_epoch5.pth
+ create mode 100644 checkpoint/model_epoch50.pth
+Variable de entorno GH_TOK no encontrada, no se puede hacer push
+Modelo final guardado: checkpoint/model_final.pth

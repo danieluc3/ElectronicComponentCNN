@@ -34,7 +34,7 @@ train_dataset = datasets.ImageFolder(root=args.data_dir, transform=transform)
 train_loader = DataLoader(train_dataset, batch_size=args.batch_size, shuffle=True)
 
 # --- 4. Modelo, pérdida y optimizador ---
-device = torch.device("cpu") #"cuda" if torch.cuda.is_available() else 
+device = torch.device("cuda" if torch.cuda.is_available() else"cpu") #"cuda" if torch.cuda.is_available() else 
 model = ElectronicComponentCNN(num_classes=len(train_dataset.classes))
 model.to(device)
 
@@ -63,9 +63,9 @@ for epoch in range(1, args.epochs + 1):
         save_path = os.path.join(args.save_dir, f"model_epoch{epoch}.pth")
         torch.save(model.state_dict(), save_path)
         print(f"Checkpoint guardado: {save_path}")
-    import subprocess
+import subprocess
 
-   import os
+import os
 import subprocess
 
 # Dentro del loop de entrenamiento

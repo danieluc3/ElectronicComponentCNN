@@ -18,12 +18,15 @@ El modelo ha sido diseñado para reconocer distintas clases de componentes (ej. 
 ---
 
 ## 📂 Estructura del proyecto
+```bash
 ElectronicComponentCNN/ 
 │── model.py # Definición de la arquitectura CNN 
 │── train.py # Script de entrenamiento 
 │── checkpoints/ # Pesos entrenados (.pth) 
 │── test_data/ # Imágenes de prueba organizadas por clase 
 │── show_results.ipynb # Notebook para visualizar resultados
+│── train_data/ # Dataset de entrenamiento
+```
 
 
 ---
@@ -40,7 +43,9 @@ Preprocesar la imagen (grayscale, resize, normalize).
 
 Ejecutar inferencia y obtener la clase predicha.
 
-##📊 Ejemplo de salida
+---
+## 📊 Ejemplo de salida
+
 Archivo	Clase (índice)	Etiqueta
 img1.png	0	           resistor
 img2.png	1	          capacitor

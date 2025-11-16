@@ -1,7 +1,7 @@
 # 🧠 ElectronicComponentCNN
 
 Este proyecto implementa una **Red Neuronal Convolucional (CNN)** para la clasificación automática de componentes electrónicos a partir de imágenes.  
-El modelo ha sido diseñado para reconocer distintas clases de componentes (ej. resistores, capacitores, transistores, etc.) en imágenes en escala de grises.
+El modelo ha sido diseñado para reconocer distintas clases de componentes  en imágenes en escala de grises.
 
 ---
 
